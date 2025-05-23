@@ -23,6 +23,8 @@ void playmusic(){
   delay(250);
   ledcWriteTone(spkrPin, FA);
   delay(250);
+  ledcWriteTone(spkrPin, SO);
+  delay(250);
   ledcWriteTone(spkrPin, 0); // no sound
   delay(250);
 }
