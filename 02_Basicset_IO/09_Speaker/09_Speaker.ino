@@ -20,11 +20,28 @@ void playmusic(){
   ledcWriteTone(spkrPin, RE);
   delay(250);
   ledcWriteTone(spkrPin, MI);
+  delay(500);
+  ledcWriteTone(spkrPin, RE);
   delay(250);
-  ledcWriteTone(spkrPin, FA);
+  ledcWriteTone(spkrPin, DO);
   delay(250);
-  ledcWriteTone(spkrPin, SO);
+
+  ledcWriteTone(spkrPin, 0); // no sound
   delay(250);
+
+  ledcWriteTone(spkrPin, DO);
+  delay(250);
+  ledcWriteTone(spkrPin, RE);
+  delay(250);
+  ledcWriteTone(spkrPin, MI);
+  delay(250);
+  ledcWriteTone(spkrPin, RE);
+  delay(250);
+  ledcWriteTone(spkrPin, DO);
+  delay(250);
+  ledcWriteTone(spkrPin, RE);
+  delay(500);
+  
   ledcWriteTone(spkrPin, 0); // no sound
   delay(250);
 }

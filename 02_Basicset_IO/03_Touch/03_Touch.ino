@@ -5,14 +5,15 @@ void setup() {
   pinMode(touchPin, INPUT);
 }
 
-void loop() {
+void loop()
+ {
   //Look at the serial monitor
   if (digitalRead(touchPin) == HIGH) {
     Serial.println("Touch!");
-    delay(200);
+    delay(100);
   } else {
     Serial.println("...");
-    delay(200);
+    delay(100);
   }
-  delay(500);
+  delay(2000);
 }
